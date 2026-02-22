@@ -11,10 +11,44 @@
     <style>
         *{
             font-family: "Geist", sans-serif;
+            
         }
     </style>
 </head>
-<body>
- <h1 class="text-4xl">hello</h1>
+<body class="bg-[#F8FAFC]">
+ <header class="md:max-w-[70%] mx-auto mt-14 px-4 md:px-0 ">
+   <h2 class="font-bold text-[#002C5C] text-[32px] mb-5">Job Application Tracker</h2>
+   <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="bg-[#FFF] text-center md:text-start rounded-lg p-5">
+        <h3>Total</h3>
+        <p id="total-job" class="font-bold text-[#002C5C] text-2xl">0</p>
+      </div>
+      <div class="bg-[#FFF] text-center md:text-start rounded-lg p-5">
+        <h3>Interview</h3>
+        <p id="total-interview" class="font-bold text-[#10B981] text-2xl">0</p>
+      </div>
+      <div class="bg-[#FFF] text-center md:text-start rounded-lg p-5">
+        <h3>Rejected</h3>
+        <p id="total-rejected" class="font-bold text-[#EF4444] text-2xl">0</p>
+      </div>
+   </div>
+   <hr class="my-7 border-b border-[#E6E7E9]">
+ </header>
+ <main  class=" md:max-w-[70%] mx-auto px-4 md:px-0">
+    <section class="mb-8">
+        <div class="flex justify-between">
+        <h3 class="text-[20px] text-[#002C5C] font-semibold">Available Jobs</h3>
+        <div class="flex text-[#64748B] gap-1">
+            <span>0</span>
+            <p>Jobs</p>
+        </div>
+    </div>
+    </section>
+    <section class="flex gap-2 mb-[15px]">
+        <div><button id="all-btn" class=" px-8 py-2.5 font-semibold text-[12px] bg-[#FFF] rounded-[5px]">All</button></div>
+        <div><button id="interview-btn" class=" px-8 py-2.5 font-semibold text-[12px] bg-[#FFF] rounded-[5px]">Interview</button></div>
+        <div><button id="rejected-btn" class=" px-8 py-2.5 font-semibold text-[12px] bg-[#FFF] rounded-[5px]">Rejected</button></div>
+    </section>
+ </main>
 </body>
 </html>
