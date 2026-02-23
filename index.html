@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A4 PH Job Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
@@ -49,6 +50,41 @@
         <div><button id="interview-btn" class=" px-8 py-2.5 font-semibold text-[12px] bg-[#FFF] rounded-[5px]">Interview</button></div>
         <div><button id="rejected-btn" class=" px-8 py-2.5 font-semibold text-[12px] bg-[#FFF] rounded-[5px]">Rejected</button></div>
     </section>
+    <section id="Job-list-all" class="space-y-4">
+       <div class="card bg-[#FFF] p-6 rounded-lg flex justify-between">
+          <div>
+             <h2 class="text-2xl font-semibold text-[#002C5C]">Mobile First Corp</h2>
+             <p class="text-[#64748B] mt-1">React Native Developer</p>
+             <p class="text-[#64748B] text-[12px] my-4">Remote • Full-time • $130,000 - $175,000</p>
+             <button id="NotApplied" class="bg-[#EEF4FF] px-3 py-2 rounded-[7px]">Not Applied</button>
+             <p class="text-[#323B49] text-sm my-4">Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
+             <div class="flex gap-4">
+            <button id="app-interview-btn" class="text-[#10B981] border-2 border-[#10B981] px-4 py-2 rounded-[5px]">Interview</button>
+            <button id="app-rejected-btn" class="text-[#EF4444] border-2 border-[#EF4444] px-4 py-2 rounded-[5px]">Rejected</button>
+             </div>
+          </div>
+          <div>
+            <button id="delete-btn" class="p-4 flex justify-center items-center w-4 h-4 border border-[#F1F2F4] text-[#64748B] rounded-full"><i class="fa-solid fa-trash"></i></button>
+          </div>
+       </div>
+       <div class="card bg-[#FFF] p-6 rounded-lg flex justify-between">
+          <div>
+             <h2 class="text-2xl font-semibold text-[#002C5C]">WebFlow Agency</h2>
+             <p class="text-[#64748B] mt-1">Web Designer & Developer</p>
+             <p class="text-[#64748B] text-[12px] my-4">Los Angeles, CA • Part-time • $80,000 - $120,000</p>
+             <button id="NotApplied" class="bg-[#EEF4FF] px-3 py-2 rounded-[7px]">Not Applied</button>
+             <p class="text-[#323B49] text-sm my-4">Create stunning web experiences for high-profile clients. Must have portfolio and experience with modern web design trends..</p>
+             <div class="flex gap-4">
+            <button id="app-interview-btn" class="text-[#10B981] border-2 border-[#10B981] px-4 py-2 rounded-[5px]">Interview</button>
+            <button id="app-rejected-btn" class="text-[#EF4444] border-2 border-[#EF4444] px-4 py-2 rounded-[5px]">Rejected</button>
+             </div>
+          </div>
+          <div>
+            <button id="delete-btn" class="p-4 flex justify-center items-center w-4 h-4 border border-[#F1F2F4] text-[#64748B] rounded-full"><i class="fa-solid fa-trash"></i></button>
+          </div>
+       </div>
+    </section>
+    <script src="./script/file.js"></script>
  </main>
 </body>
 </html>
