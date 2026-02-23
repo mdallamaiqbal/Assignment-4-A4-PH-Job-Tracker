@@ -84,7 +84,7 @@ function interviewSection() {
              <h2 class="CompanyName text-2xl font-semibold text-[#002C5C]">${interview.CompanyName}</h2>
              <p class="JobTitle text-[#64748B] mt-1">${interview.JobTitle}</p>
              <p class="JobTypeAndSalary text-[#64748B] text-[12px] my-4">${interview.JobTypeAndSalary}</p>
-             <button class="StatusButton border-2 border-[#10B981] px-3 py-2 rounded-[7px]">${interview.StatusButton}</button>
+             <button class="StatusButton text-[#10B981] border-2 border-[#10B981] px-3 py-2 rounded-[7px]">${interview.StatusButton}</button>
              <p class="Description text-[#323B49] text-sm my-4">${interview.Description}</p>
              <div class="flex gap-4">
             <button id="app-interview-btn" class="text-[#10B981] border-2 border-[#10B981] px-4 py-2 rounded-[5px]">Interview</button>
