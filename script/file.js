@@ -231,7 +231,7 @@ function rejectedSection() {
              </div>
           </div>
           <div>
-            <button  class="delete-btn p-4 flex justify-center items-center w-4 h-4 border border-[#F1F2F4] text-[#64748B] rounded-full"><i class="fa-solid fa-trash"></i></button>
+            <button class="delete-btn p-4 flex justify-center items-center w-4 h-4 border border-[#F1F2F4] text-[#64748B] rounded-full"><i class="fa-solid fa-trash"></i></button>
           </div>`
         filterJobs.appendChild(div)
     }
